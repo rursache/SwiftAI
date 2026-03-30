@@ -17,12 +17,12 @@ let package = Package(
     .library(name: "SwiftAIMLX", targets: ["SwiftAIMLX"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/swiftlang/swift-syntax.git", from: "510.0.0"),
-    .package(url: "https://github.com/swiftlang/swift-format.git", from: "510.0.0"),
+    .package(url: "https://github.com/swiftlang/swift-syntax.git", from: "603.0.0"),
+    .package(url: "https://github.com/swiftlang/swift-format.git", from: "602.0.0"),
     .package(url: "https://github.com/MacPaw/OpenAI.git", branch: "main"),
-    .package(url: "https://github.com/pointfreeco/swift-macro-testing.git", from: "0.6.3"),
-    .package(url: "https://github.com/ml-explore/mlx-swift-examples.git", from: "2.25.6"),
-    .package(url: "https://github.com/apple/swift-collections.git", from: "1.3.0"),
+    .package(url: "https://github.com/pointfreeco/swift-macro-testing.git", from: "0.6.5"),
+    .package(url: "https://github.com/ml-explore/mlx-swift-examples.git", from: "2.29.1"),
+    .package(url: "https://github.com/apple/swift-collections.git", from: "1.4.1"),
   ],
   targets: [
     .target(
